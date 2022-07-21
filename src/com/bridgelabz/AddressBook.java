@@ -43,6 +43,7 @@ public class AddressBook {
         person.setMobileNo(MobileNo);
         person.setEmailId(emailId);
         System.out.println(person);
+        System.out.println();
         return person;
     }
 

@@ -10,7 +10,9 @@ public class Contact {
     private String MobileNo;
     private String emailId;
 
-    
+    public String getFirstName() {
+        return FirstName;
+    }
     public void setFirstName(String firstName) {
         this.FirstName = firstName;
     }
